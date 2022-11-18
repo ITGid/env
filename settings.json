@@ -1,0 +1,212 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.minimap.maxColumn": 100,
+  "vscodeGoogleTranslate.preferredLanguage": "English",
+  "workbench.list.smoothScrolling": true,
+  "editor.fontSize": 16,
+  "files.autoSaveDelay": 500,
+  "liveServer.settings.port": 0,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.lineHeight": 30,
+  "editor.suggestLineHeight": 22,
+  "[javascript]": {
+    "editor.defaultFormatter": null
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "scss.lint.float": "warning",
+  "files.defaultLanguage": "html",
+  "editor.smoothScrolling": true,
+  "editor.quickSuggestionsDelay": 0,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.tabSize": 2,
+  "files.associations": {
+    "*.kit": "html"
+  },
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#76FF03",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "path-autocomplete.pathMappings": {
+    "@img": "${folder}/src/img",
+    "@icon": "${folder}/src/icons"
+    // "@css": "${folder}/src/css",
+    // "@js": "${folder}/src/js",
+  },
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "material-icon-theme.files.associations": {},
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.folders.associations": {},
+  "material-icon-theme.languages.associations": {},
+  "workbench.editor.enablePreview": false,
+  "workbench.colorCustomizations": {
+    "editorError.foreground": "#DE3163",
+    "editorWarning.foreground": "#5D3FD3",
+    "editorInfo.foreground": "#3a1e3f",
+    "inlineparameters.annotationBackground": "#19002b",
+    "inlineparameters.annotationForeground": "#d4c0ff"
+  },
+  "editor.renderWhitespace": "none",
+  "debug.showBreakpointsInOverviewRuler": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "scssFormatter.singleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "html.format.maxPreserveNewLines": 3,
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "prettier.jsxSingleQuote": true,
+  "gutterpreview.enableReferenceLookup": true,
+  "editor.detectIndentation": false,
+  "editor.parameterHints.cycle": true,
+  "editor.linkedEditing": true,
+  "ecsstractor_port.empty_line_before_nested_selector": false,
+  "tabnine.experimentalAutoImports": true,
+  "editor.glyphMargin": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "cSpell.userWords": [
+    "accum",
+    "airbnb",
+    "autoplays",
+    "autoprefixer",
+    "avif",
+    "browsersync",
+    "camelise",
+    "datetime",
+    "Elems",
+    "embeded",
+    "flexbox",
+    "fullscreen",
+    "funcs",
+    "Gocorona",
+    "gulpfile",
+    "Inited",
+    "linebreak",
+    "plusplus",
+    "radiobutton",
+    "Relvise",
+    "sourcemaps",
+    "stroustrup",
+    "stylelint",
+    "stylelintrc",
+    "swiper",
+    "tabindex",
+    "toolbelt",
+    "unminified",
+    "webp"
+  ],
+  "workbench.colorTheme": "Material Theme Ocean",
+  "emmet.syntaxProfiles": {
+    "xml": {
+      "attr_quotes": "single"
+    },
+    "html": {
+      "attr_quotes": "single"
+    },
+    "js": {
+      "attr_quotes": "single",
+      "self_closing_tag": true
+    },
+    "jsx": {
+      "attr_quotes": "single",
+      "self_closing_tag": true
+    }
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "simpleBrowser.focusLockIndicator.enabled": false,
+  "editor.formatOnSave": true,
+  // "[javascript]": {
+  //   "editor.formatOnSave": false
+  // },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "prettier.printWidth": 120,
+  "cSpell.spellCheckDelayMs": 400,
+  "javascript.format.semicolons": "insert",
+  "javascript.suggest.autoImports": false,
+  "stylelint.validate": ["css", "less", "postcss", "scss"],
+  "scss.showErrors": true,
+  "stylelint.snippet": ["css", "less", "postcss", "scss"],
+  "editor.showDeprecated": false,
+  "CSSNavigation.alsoSearchDefinitionsInStyleTag": false,
+  "prettier.endOfLine": "crlf",
+  "editor.acceptSuggestionOnEnter": "off",
+  "ecsstractor_port.add_comment": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "ecsstractor_port.indentation": " ",
+  "ecsstractor_port.bem_nesting": true,
+  "html.format.endWithNewline": true,
+  "htmltagwrap.tag": "div",
+  "markdown.preview.typographer": true,
+  "prettier.singleQuote": true,
+  "editor.inlineSuggest.enabled": true,
+  "window.menuBarVisibility": "toggle",
+  "inline-parameters.enabled": true,
+  "inline-parameters.fontSize": "0.6em",
+  "inline-parameters.margin": "0 0.2em 0 0.1em",
+  "inline-parameters.padding": "0.25em 0.25em 0.25em 0.5em",
+  "cssVariables.lookupFiles": ["**/*.css", "**/*.scss", "**/*.sass", "**/*.less"],
+  "cssVariables.blacklistFolders": [
+    "**/.txt",
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/.git",
+    "**/node_modules",
+    "**/bower_components",
+    "**/tmp",
+    "**/dist",
+    "**/tests"
+  ]
+}

@@ -1,0 +1,445 @@
+{
+  "border-radius": {
+    "prefix": "brr",
+    "body": ["border-radius: ${1:50%};"]
+  },
+
+  "object-fit: cover;": {
+    "prefix": "ofc",
+    "body": ["object-fit: cover;"]
+  },
+
+  "ibg for image tag": {
+    "prefix": "ibg",
+    "body": ["position: absolute;", "top: 0;", "left: 0;", "width: 100%;", "height: 100%;", "object-fit: cover;"]
+  },
+
+  "flex full": {
+    "prefix": "flf",
+    "body": ["display: flex;", "justify-content: center;", "align-items: center;", "flex-wrap: wrap;"]
+  },
+
+  "row-gap": {
+    "prefix": "rg",
+    "body": ["row-gap: $1;"]
+  },
+
+  "column-gap": {
+    "prefix": "cg",
+    "body": ["column-gap: $1;"]
+  },
+
+  "grid container that limits max-width": {
+    "prefix": "cont2",
+    "body": [
+      "display: grid;",
+      "grid-template-columns: 1fr minmax(auto, $1px) 1fr;",
+      "margin: 0 auto;",
+      "padding-left: ${2:15}px;",
+      "padding-rihgt: ${2:15}px;",
+      "",
+      "& > * {",
+      "  grid-column-start: 2;",
+      "}"
+    ]
+  },
+
+  "absolute full width": {
+    "prefix": "afs",
+    "body": ["position: absolute;", "top: 0;", "left: 0;", "height: 100%;", "width: 100%;", "background-color: #;"]
+  },
+
+  "absolute center": {
+    "prefix": "ac",
+    "body": ["position: absolute;", "top: 50%;", "left: 50%;", "transform: translate(-50%, -50%);"]
+  },
+
+  "absolute center x": {
+    "prefix": "acx",
+    "body": ["position: absolute;", "left: 50%;", "transform: translateX(-50%);"]
+  },
+
+  "absolute center y": {
+    "prefix": "acy",
+    "body": ["position: absolute;", "top: 50%;", "transform: translateY(-50%);"]
+  },
+
+  "transform: scale();": {
+    "prefix": "trs",
+    "body": ["transform: scale($1);"]
+  },
+
+  "transform: ;": {
+    "prefix": "tra",
+    "body": ["transform: $1;"]
+  },
+
+  "transform: translate();": {
+    "prefix": "trt",
+    "body": ["transform: translate($1);"]
+  },
+
+  "transform: translateX();": {
+    "prefix": "trtx",
+    "body": ["transform: translateX($1);"]
+  },
+
+  "transform: translateY();": {
+    "prefix": "trty",
+    "body": ["transform: translateY($1);"]
+  },
+
+  "transform: rotate();": {
+    "prefix": "trr",
+    "body": ["transform: rotate($1);"]
+  },
+
+  "transform: rotateX();": {
+    "prefix": "trrx",
+    "body": ["transform: rotateX($1);"]
+  },
+
+  "transform: rotateY();": {
+    "prefix": "trry",
+    "body": ["transform: rotateY($1);"]
+  },
+
+  "transition": {
+    "prefix": "tr",
+    "body": ["transition: all .$1s ease;"]
+  },
+
+  "flex": {
+    "prefix": "fl",
+    "body": ["flex: 0 0 $1%;"]
+  },
+
+  "background url": {
+    "prefix": "bgu",
+    "body": ["background: url(../$1) no-repeat center center;", "background-size: co$2;"]
+  },
+
+  "hover": {
+    "prefix": "hov",
+    "body": ["&:hover {", "  $1", "}", ""]
+  },
+
+  "before": {
+    "prefix": "bf",
+    "body": [":before {", "  ", "}", ""]
+  },
+
+  "before full": {
+    "prefix": "bff",
+    "body": [":before {", "top: $1;", "left: $2;", "width: $3;", "height: $4;"]
+  },
+
+  "after": {
+    "prefix": "af",
+    "body": [":after {", "  ", "}", ""]
+  },
+
+  "after full": {
+    "prefix": "aff",
+    "body": [":after {", "top: $1;", "left: $2;", "width: $3;", "height: $4;"]
+  },
+
+  "border": {
+    "prefix": "bor",
+    "body": ["border: $1;"]
+  },
+
+  "calc()": {
+    "prefix": "cc",
+    "body": ["calc($1)"]
+  },
+
+  "media": {
+    "prefix": "md",
+    "body": ["@media(max-width: $1px) {", "  $2", "}"]
+  },
+
+  "media 767": {
+    "prefix": "md7",
+    "body": ["@media(max-width: 767px) {", "  $1", "}"]
+  },
+
+  "media 992": {
+    "prefix": "md9",
+    "body": ["@media(max-width: 992px) {", "  $1", "}"]
+  },
+
+  "media 640": {
+    "prefix": "md6",
+    "body": ["@media(max-width: 640px) {", "  $1", "}"]
+  },
+
+  "media 500": {
+    "prefix": "md5",
+    "body": ["@media(max-width: 500px) {", "  $1", "}"]
+  },
+
+  "media 425": {
+    "prefix": "md4",
+    "body": ["@media(max-width: 425px) {", "  $1", "}"]
+  },
+
+  "media 375": {
+    "prefix": "md3",
+    "body": ["@media(max-width: 375px) {", "  $1", "}"]
+  },
+
+  "media 800": {
+    "prefix": "md8",
+    "body": ["@media(max-width: 800px) {", "  $1", "}"]
+  },
+
+  "media 1100": {
+    "prefix": "md11",
+    "body": ["@media(max-width: 1100px) {", "  $1", "}"]
+  },
+
+  "media 1024": {
+    "prefix": "md10",
+    "body": ["@media(max-width: 1024px) {", "  $1", "}"]
+  },
+
+  "media 1200": {
+    "prefix": "md12",
+    "body": ["@media(max-width: 1200px) {", "  $1", "}"]
+  },
+
+  "media 1440": {
+    "prefix": "md14",
+    "body": ["@media(max-width: 1440px) {", "  $1", "}"]
+  },
+
+  "big comment": {
+    "prefix": "bigc",
+    "body": [
+      "",
+      "/*",
+      "* ---------------------------------------------------------------------------------- *",
+      "* ======================================  $1  ======================================== *",
+      "* ---------------------------------------------------------------------------------- *",
+      "*/"
+    ]
+  },
+
+  "standard comment": {
+    "prefix": "mdc",
+    "body": ["", "/*", "* ====================================  $1  ==================================== *", "*/"]
+  },
+
+  "small comment": {
+    "prefix": "smc",
+    "body": [" /* --- $1 --- */"]
+  },
+
+  "important comment": {
+    "prefix": "impc",
+    "body": [
+      "",
+      "/*",
+      "! ---------------------------------------------------------------------------------- !",
+      "! ======================================  $1  ======================================== !",
+      "! ---------------------------------------------------------------------------------- !",
+      "*/"
+    ]
+  },
+
+  "burger": {
+    "prefix": "burg",
+    "body": [
+      ".burger {",
+      "  display: none;",
+      "  position: relative;",
+      "  width: $1;",
+      "  height: $2;",
+      "  z-index: 9;",
+      "  cursor: pointer;",
+      "}",
+      "",
+      ".burger:before,",
+      ".burger:after {",
+      "  left: 50%;",
+      "  width: 100%;",
+      "  height: $3;",
+      "  background-color: $4;",
+      "  transition: 0.5s;",
+      "  transform: translateX(-50%);",
+      "}",
+      "",
+      ".burger:before {",
+      "  top: 0;",
+      "}",
+      "",
+      ".burger:after {",
+      "  bottom: 0;",
+      "}",
+      "",
+      ".burger span {",
+      "  position: absolute;",
+      "  top: 50%;",
+      "  left: 50%;",
+      "  width: 100%;",
+      "  height: $5;",
+      "  background-color: $6;",
+      "  transition: 0.5s;",
+      "  transform: translate(-50%, -50%);",
+      "}",
+      "",
+      ".burger.active span:first-child {",
+      "  transform: translate(-50%, -50%) rotate(45deg);",
+      "}",
+      "",
+      ".burger.active span:last-child {",
+      "  transform: translate(-50%, -50%) rotate(-45deg);",
+      "}",
+      "",
+      ".burger.active:before,",
+      ".burger.active:after {",
+      "  transform: translateX(-50%);",
+      "  width: 0;",
+      "  height: 0;",
+      "  opacity: 0;",
+      "}",
+      ""
+    ]
+  },
+
+  "start snippet": {
+    "prefix": "start",
+    "body": [
+      "",
+      "/*",
+      "* -------------------------------------------------------------------------------------------- *",
+      "* ====================================  CONNECTING FONTS  ==================================== *",
+      "* -------------------------------------------------------------------------------------------- *",
+      "*/",
+      "",
+      "",
+      "",
+      "/*",
+      "* -------------------------------------------------------------------------------------------- *",
+      "* ======================================  RESET STYLES  ====================================== *",
+      "* -------------------------------------------------------------------------------------------- *",
+      "*/",
+      "",
+      "* {",
+      "  padding: 0;",
+      "  margin: 0;",
+      "  box-sizing: border-box;",
+      "  border: none;",
+      "}",
+      "",
+      "*:before, *:after {",
+      "   position: absolute;",
+      "}",
+      "",
+      "html, body {",
+      "  height: 100%;",
+      "  width: 100%;",
+      "  font-size: 100%;",
+      "  line-height: 1;",
+      "  text-size-adjust: 100%;",
+      " min-height: 100vh;",
+      "}",
+      "",
+      "body {",
+      " scroll-behavior: smooth;",
+      "  font-family: $2;",
+      "}",
+      "",
+      "a:active {",
+      "  outline: none;",
+      "}",
+      "",
+      "a, a:active, a:visited {",
+      "  text-decoration: none;",
+      "}",
+      "",
+      "input, button, textarea {",
+      "  font-family: inherit;",
+      "  font-size: inherit;",
+      "}",
+      "",
+      "input::ms-clear {",
+      "  display: none;",
+      "}",
+      "",
+      "button {",
+      "  cursor: pointer;",
+      "}",
+      "",
+      "button::-moz-focus-inner {",
+      "  padding: 0;",
+      "  border: none;",
+      "}",
+      "",
+      "ul, li {",
+      "  list-style: none;",
+      "}",
+      "",
+      "h1, h2, h3, h4, h5, h6 {",
+      "  font-size: inherit;",
+      "}",
+      "",
+      "img {",
+      "  max-width: 100%;",
+      "}",
+      "",
+      "input[type='search']::-webkit-search-decoration,",
+      "input[type='search']::-webkit-search-cancel-button,",
+      "input[type='search']::-webkit-search-results-button,",
+      "input[type='search']::-webkit-search-results-decoration {",
+      "  margin-left: 7px;",
+      "}",
+      "",
+      "",
+      "",
+      "/*",
+      "* -------------------------------------------------------------------------------------------- *",
+      "* ====================================  GENERAL CLASSES  ===================================== *",
+      "* -------------------------------------------------------------------------------------------- *",
+      "*/",
+      "",
+      ".wrapper {",
+      "  overflow: hidden;",
+      "  display: flex;",
+      "  flex-direction: column;",
+      "  justify-content: stretch;",
+      "  min-height: 100vh;",
+      "}",
+      "",
+      ".content {",
+      "  flex: 1 1 auto;",
+      "}",
+      "",
+      ".container {",
+      "  max-width: $1px;",
+      "  margin: 0 auto;",
+      "  padding: 0 20px;",
+      "}",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "/*",
+      "* -------------------------------------------------------------------------------------------------- *",
+      "* ====================================  MAIN CODE STARTS HERE  ===================================== *",
+      "* -------------------------------------------------------------------------------------------------- *",
+      "*/",
+      "",
+      "",
+      "",
+      "/*",
+      "* ----------------------------------------------------------------------------------- *",
+      "* ====================================  header  ===================================== *",
+      "* ----------------------------------------------------------------------------------- *",
+      "*/",
+      ""
+    ]
+  }
+}

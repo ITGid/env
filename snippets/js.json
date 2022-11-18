@@ -1,0 +1,25 @@
+{
+	"querySelector": {
+		"prefix": "qs",
+		"body": [
+			"${1:document}.querySelector('.$2')$3",
+		],
+		"description": "querySelector"
+	},
+
+	"Print to console": {
+		"prefix": "cl",
+		"body": [
+			"console.log(${1:${TM_SELECTED_TEXT}});${2}",
+		],
+		"description": "Log output to console"
+	},
+
+  "Print to console from clipboard": {
+		"prefix": "clc",
+		"body": [
+			"console.log(${1:${CLIPBOARD}});${2}",
+		],
+		"description": "Log output to console"
+	}
+}

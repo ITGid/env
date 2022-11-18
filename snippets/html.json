@@ -1,0 +1,139 @@
+{
+  //! main snippets
+
+  "svg sprite use": {
+    "prefix": "use",
+    "body": ["<svg class='$1'>", " <use xlink:href='@icon/_svgsprites/sprites.svg#$2'></use>", "</svg>"]
+  },
+
+  "nav": {
+    "prefix": "nav",
+    "body": [
+      "<nav class='header__nav'>",
+      "  <ul class='header__ul'>",
+      "    <li class='header__li'>",
+      "      <a href='#' class='header__link'></a>",
+      "    </li>",
+      "    <li class='header__li'>",
+      "      <a href='#' class='header__link'></a>",
+      "    </li>",
+      "    <li class='header__li'>",
+      "      <a href='#' class='header__link'></a>",
+      "    </li>",
+      "    <li class='header__li'>",
+      "      <a href='#' class='header__link'></a>",
+      "    </li>",
+      "  </ul>",
+      "</nav>"
+    ]
+  },
+
+  "head": {
+    "prefix": "head",
+    "body": [
+      "<head>",
+      "  <meta charset='UTF-8'>",
+      "  <meta http-equiv='X-UA-Compatible' content='IE=edge'>",
+      "  <meta name='viewport' content='width=device-width, initial-scale=1.0'>",
+      "  <meta name='format-detection' content='telephone=no, email=no, address=no, date=no' />",
+      "  <link rel='preload' href='./fonts/base/$1' as='font' type='font/woff2' crossorigin>",
+      "",
+      "  <link rel='stylesheet' href='css/main.min.css'>",
+      "  <title>@@title</title>",
+      "</head>"
+    ]
+  },
+
+  "burger": {
+    "prefix": "burg",
+    "body": ["<button type='button' class='burger'>", "  <span></span>", "  <span></span>", "</button>"]
+  },
+
+  "btn": {
+    "prefix": "btn",
+    "body": ["<button class='$0' type='button'></button>"]
+  },
+
+  "@img": {
+    "prefix": "img",
+    "body": ["<img src='@img/${1:main-page/}' alt='$2'/>"]
+  },
+
+  //! comments
+
+  "big comment": {
+    "prefix": "bigc",
+    "body": ["", "<!-- ---------------", "* ==================  $1  ================== *", "---------------- -->"]
+  },
+
+  "standard comment": {
+    "prefix": "mdc",
+    "body": ["", "<!-- * ------------- $1  ------------- * -->", ""]
+  },
+
+  "small comment": {
+    "prefix": "smc",
+    "body": ["<!-- --- $1 --- -->"]
+  },
+
+  "important comment": {
+    "prefix": "impc",
+    "body": ["", "<!-- ---------------", "! ==================  $1  ================== !", "---------------- -->"]
+  },
+
+  //! start snippet
+
+  "start snippet": {
+    "prefix": "start",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang='$1'>",
+      "",
+      "<head>",
+      "  <meta charset='UTF-8'>",
+      "  <meta name='viewport' content='width=device-width, initial-scale=1.0'>",
+      "  <title>$2</title>",
+      "  <link rel='stylesheet' href='css/main.css'>",
+      "  <!--",
+      "    ?   favicon",
+      "  -->",
+      "</head>",
+      "",
+      "<body>",
+      "<div class='wrapper'>",
+      "<div class='content'>",
+      "",
+      "",
+      "<!-- ---------------",
+      "* ==================  header  ================== *",
+      "---------------- -->",
+      "<header class='header'>",
+      "  <div class='container'>",
+      "    ",
+      "  </div>",
+      "</header>",
+      "",
+      "</div> <!--  <div class='content'> ends -->",
+      "",
+      "",
+      "<!-- ---------------",
+      "* ==================  footer  ================== *",
+      "---------------- -->",
+      "<footer class='footer'>",
+      " <div class='container'>",
+      "    ",
+      "  </div>",
+      "</footer>",
+      "",
+      "</div> <!--  <div class='wrapper'> ends -->",
+      "",
+      "<!-- ----------------------------------------------------------- -->",
+      "<!-- ========================= scripts ========================= -->",
+      "<!-- ----------------------------------------------------------- -->",
+      "<script src='js/main.js'></script>",
+      "",
+      "</body>",
+      "</html>"
+    ]
+  }
+}
